@@ -1,5 +1,7 @@
 # Usage
 
+[Create IAM instance profile](https://docs.aws.amazon.com/codedeploy/latest/userguide/getting-started-create-iam-instance-profile.html)
+
 Make sure you have AWS credentials in your environment. You can use the [AWS CLI](https://aws.amazon.com/cli/) to configure them.
 
 ```bash
