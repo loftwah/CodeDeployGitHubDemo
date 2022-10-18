@@ -24,3 +24,6 @@ aws iam attach-role-policy --role-name CodeDeployServiceRole --policy-arn arn:aw
 ## Notes
 
 Some of these steps were done in the console and could also be done via CLI. I just wanted to do them in the console to get an idea of which parts are going together.
+
+- I had to add `AutoScalingFullAccess` to the CodeDeployServiceRole
+- I temporarily added admin access while I work out what is stopping the deployment
